@@ -1,0 +1,79 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header styling */
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 1rem; /* Padding around the header */
+    text-align: center; /* Center align the text */
+}
+
+/* Navigation menu styling */
+header nav ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding from list */
+}
+
+header nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 1rem; /* Space out list items */
+}
+
+header nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Section styling */
+section {
+    padding: 2rem; /* Padding inside sections */
+    margin: 1rem 0; /* Margin outside sections */
+}
+
+/* Project container styling */
+.project {
+    margin-bottom: 1rem; /* Space below each project */
+}
+
+.project a {
+    color: #007bff; /* Blue color for project links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.project a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Form styling */
+form label {
+    display: block; /* Display labels as block elements */
+    margin-top: 1rem; /* Space above labels */
+}
+
+form input, form textarea {
+    width: 100%; /* Full width for input and textarea */
+    padding: 0.5rem; /* Padding inside input and textarea */
+    margin-top: 0.5rem; /* Space above input and textarea */
+}
+
+form button {
+    margin-top: 1rem; /* Space above the button */
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    background-color: #333; /* Dark background color for button */
+    color: #fff; /* White text color for button */
+    border: none; /* Remove border from button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align the text */
+    padding: 1rem; /* Padding inside the footer */
+}
